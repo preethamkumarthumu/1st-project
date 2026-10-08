@@ -3,7 +3,7 @@
 ############################################
  
 module "argocd" {
-  source = "../../modules/devops/argocd"
+  source = "../../modules/monitoring/argocd"
  
   # Project
   project_name = var.project_name
