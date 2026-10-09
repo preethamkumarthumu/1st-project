@@ -2,9 +2,10 @@
 # EKS Inputs (from parent)
 ############################################
 
-variable "cluster_name" {
-  description = "EKS Cluster Name"
+variable "name" {
+  description = "karpenter"
   type        = string
+  default     = "karpenter"
 }
 
 variable "cluster_endpoint" {
