@@ -1,6 +1,6 @@
 resource "helm_release" "karpenter" {
 
-  name       = "karpenter"
+  name       = var.name
 
   repository = "oci://public.ecr.aws/karpenter"
 
